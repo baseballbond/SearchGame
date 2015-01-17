@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue" type="color">#FF33B5E5</color>
+    <color name="purple" type="color">#FFAA66CC</color>
+    <color name="green" type="color">#FF99CC00</color>
+    <color name="orange" type="color">#FFFFBB33</color>
+    <color name="red" type="color">#FFFF4444</color>
+    <color name="darkblue" type="color">#FF0099CC</color>
+    <color name="darkpurple" type="color">#FF9933CC</color>
+    <color name="darkgreen" type="color">#FF669900</color>
+    <color name="darkorange" type="color">#FFFF8800</color>
+    <color name="darkred" type="color">#FFCC0000</color>
+    <color name="buttonBlue" type="color">#8FD2FF</color>
+    <color name="buttonCorrectBlue" type="color">#95A7DE</color>
+    <color name="buttonCorrectGreen" type="color">#45FF5B</color>
+	<color name="buttonWrongRed" type="color">#FC5956</color>
+    <color name="backgroundBlue" type="color">#00BFFF</color>
+    <color name="buttonOnTouch" type="color">#57BCFF</color>
+    <color name="textColor" type="color">#4A595E</color>
+    <color name="buttonCorrectText" type="color">#6E777A</color>
+    <color name="buttonDisabledText" type="color">#9EA9AD</color>
+    <color name="disabledText" type="color">#8F8F8F</color>
+</resources>

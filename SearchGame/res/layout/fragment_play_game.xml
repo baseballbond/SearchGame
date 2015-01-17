@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundBlue"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.searchgame.activity.PlayGameActivity$PlaceholderFragment" >
+
+    <TextView
+        android:id="@+id/SearchTermText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="11pt"
+        android:padding="@dimen/pick_answer_padding"
+        android:textColor="@color/textColor"
+        android:layout_marginBottom="10dp" />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/SearchTermText"
+        android:orientation="vertical" >
+        
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="@dimen/pick_answer_padding"
+            android:layout_weight="1" >
+	        <Button
+	            android:id="@+id/Button01"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@color/buttonBlue"
+	            android:onClick="answerButtonOnClick" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="@dimen/pick_answer_padding"
+            android:layout_weight="1" >
+	        <Button
+	            android:id="@+id/Button02"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@color/buttonBlue"
+	            android:onClick="answerButtonOnClick" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="@dimen/pick_answer_padding"
+            android:layout_weight="1" >
+	        <Button
+	            android:id="@+id/Button03"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@color/buttonBlue"
+	            android:onClick="answerButtonOnClick" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="@dimen/pick_answer_padding"
+            android:layout_weight="1" >
+	        <Button
+	            android:id="@+id/Button04"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@color/buttonBlue"
+	            android:onClick="answerButtonOnClick" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="@dimen/pick_answer_padding"
+            android:layout_weight="1" >
+	        <Button
+	            android:id="@+id/Button05"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@color/buttonBlue"
+	            android:onClick="answerButtonOnClick" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="@dimen/pick_answer_padding"
+            android:layout_weight="1" >
+	        <Button
+	            android:id="@+id/Button06"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:background="@color/buttonBlue"
+	            android:onClick="answerButtonOnClick" />
+        </RelativeLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>
